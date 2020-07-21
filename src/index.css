@@ -24,41 +24,6 @@ code {
   background-color: teal;
 }
 
-.home-card-content {
-  background-color: #f7f6f3;
-  border-radius: 0.6rem;
-  padding: 1rem;
-}
-
-.initial-name {
-  background-color: #def9f3;
-  width: 1.7rem;
-  height: 1.7rem;
-  border-radius: 50%;
-  color: teal;
-  text-align: center;
-}
-
-.bg-label {
-  border-radius: 1rem;
-  padding: 0rem 0.5rem;
-}
-
-.bg-research {
-  background-color: #fff3d2;
-  color: #efbe21;
-}
-
-.bg-backend {
-  background-color: #ffe5f0;
-  color: #f14ca3;
-}
-
-.bg-design {
-  background-color: #e3efff;
-  color: #247bd2;
-}
-
 .custom-modal {
   position: absolute;
   top: 10%;

@@ -22,8 +22,8 @@ const MenuContent = (props) => {
 
 const TeamContent = (props) => {
   return (
-    <div className="d-flex justify-content-between align-items-center">
-      <div className="sidebar-content">{props.data.name}</div>
+    <div className="sidebar-content d-flex justify-content-between align-items-center">
+      <div>{props.data.name}</div>
       <div>
         {MEMBERS.filter((member) => member.idTeam === props.data.id)
           .slice(0, 3)

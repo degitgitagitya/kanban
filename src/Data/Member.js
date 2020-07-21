@@ -21,7 +21,7 @@ const MEMBERS = [
   },
   {
     id: 4,
-    name: "Steven",
+    name: "Kelvin",
     photo:
       "https://nationalwestern.com/wp-content/uploads/2019/10/Brown_S-head-shot-1.jpg",
     idTeam: 3,

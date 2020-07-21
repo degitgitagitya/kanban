@@ -4,6 +4,7 @@ import ReactModal from "react-modal";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import "@atlaskit/css-reset";
 
 ReactModal.setAppElement("#root");
 ReactDOM.render(

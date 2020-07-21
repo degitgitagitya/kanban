@@ -18,7 +18,9 @@ const Container = (props) => {
               alt="icon-prosa"
               className="container-icon"
             />
-            <h4 className="ml-2 mr-4">Kanban Prosa</h4>
+            <div className="ml-2 mr-4">
+              <h2>Kanban Prosa</h2>
+            </div>
             <i className="fas fa-ellipsis-h container-more"></i>
           </div>
           <div className="d-flex align-items-center">
