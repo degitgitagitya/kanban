@@ -1,0 +1,122 @@
+.sidebar-container {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0cac90;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.sidebar-user {
+  display: block;
+  color: white;
+  height: 4rem;
+}
+
+.sidebar-icon-user {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 0.1rem;
+}
+
+.sidebar-content-header {
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #011b16;
+  display: block;
+  font-weight: bold;
+}
+
+.sidebar-content {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: white;
+  display: block;
+}
+
+.sidebar-content:hover,
+.sidebar-content-header:hover {
+  background-color: teal;
+  cursor: pointer;
+}
+
+.sidebar-line {
+  border-color: #c7d4d8;
+}
+
+.sidebar-user-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.sidebar-user-status {
+  font-size: 0.8rem;
+  color: #011b16;
+  font-weight: bold;
+}
+
+.sidebar-bubble {
+  background-color: white;
+  color: black;
+  margin-left: 1rem;
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.sidebar-secondary-text {
+  font-size: 0.8rem;
+}
+
+.sidebar-track {
+  color: white;
+  font-weight: 500;
+}
+
+.side-content-add-team {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  display: block;
+  color: teal !important;
+  background-color: white;
+}
+
+.side-content-add-team:hover {
+  cursor: pointer;
+  background-color: #c7d4d8;
+}
+
+.sidebar-search {
+  background-color: transparent;
+  color: white;
+  border: 1px solid transparent;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding: 0.5rem;
+}
+
+.sidebar-search::placeholder {
+  color: white;
+}
+
+.sidebar-search:focus {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.sidebar-search-icon:hover {
+  cursor: pointer;
+}
