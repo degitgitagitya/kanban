@@ -83,7 +83,7 @@ export default class SideBar extends Component {
         <div className="sidebar-content-header">TEAMS</div>
 
         {TEAMS.map((data) => {
-          return <TeamContent key={data.no} data={data}></TeamContent>;
+          return <TeamContent key={data.id} data={data}></TeamContent>;
         })}
 
         <div className="side-content-add-team shadow">

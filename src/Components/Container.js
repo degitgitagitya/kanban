@@ -27,7 +27,7 @@ const Container = (props) => {
                 return (
                   <img
                     alt={data.id}
-                    id={data.id}
+                    key={data.id}
                     className="container-thumbnail shadow-sm"
                     src={data.photo}
                   ></img>
