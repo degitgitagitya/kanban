@@ -19,6 +19,13 @@ const MEMBERS = [
       "https://previews.123rf.com/images/bryndin/bryndin1203/bryndin120300008/12885400-french-artist-in-beret-with-three-brushes.jpg",
     idTeam: 2,
   },
+  {
+    id: 4,
+    name: "Steven",
+    photo:
+      "https://nationalwestern.com/wp-content/uploads/2019/10/Brown_S-head-shot-1.jpg",
+    idTeam: 3,
+  },
 ];
 
 export default MEMBERS;

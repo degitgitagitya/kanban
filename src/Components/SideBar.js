@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import "./SideBar.css";
 
 import TEAMS from "../Data/Team";
+import MEMBERS from "../Data/Member";
 
 const DATA_MENU = [
   {
@@ -20,7 +21,25 @@ const MenuContent = (props) => {
 };
 
 const TeamContent = (props) => {
-  return <div className="sidebar-content">{props.data.name}</div>;
+  return (
+    <div className="d-flex justify-content-between align-items-center">
+      <div className="sidebar-content">{props.data.name}</div>
+      <div>
+        {MEMBERS.filter((member) => member.idTeam === props.data.id)
+          .slice(0, 3)
+          .map((member) => {
+            return (
+              <img
+                key={member.id}
+                src={member.photo}
+                className="sidebar-thumbnail"
+                alt=""
+              />
+            );
+          })}
+      </div>
+    </div>
+  );
 };
 
 export default class SideBar extends Component {

@@ -120,3 +120,11 @@
 .sidebar-search-icon:hover {
   cursor: pointer;
 }
+
+.sidebar-thumbnail {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+}
