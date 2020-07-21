@@ -1,0 +1,49 @@
+.content-container {
+  margin-left: 250px;
+  padding-left: 1.25rem;
+  padding-top: 1.25rem;
+  margin-right: 3rem;
+  color: #111111;
+}
+
+.container-icon {
+  width: 3rem;
+}
+
+.container-thumbnail {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+}
+
+.container-thumbnail:hover {
+  cursor: pointer;
+}
+
+.container-member-label {
+  background-color: lightgray;
+  border-radius: 2rem;
+  padding: 2px 1rem;
+  font-weight: 500;
+  margin-left: 0.6rem;
+}
+
+.container-member-label:hover {
+  cursor: pointer;
+}
+
+.container-more {
+  background-color: lightgray;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  text-align: center;
+  color: gray;
+  padding-top: 0.2rem;
+}
+
+.container-more:hover {
+  cursor: pointer;
+}

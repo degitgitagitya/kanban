@@ -1,13 +1,9 @@
 import React, { Component } from "react";
 
-import SideBar from "../Components/SideBar";
+import Container from "../Components/Container";
 
 export default class Home extends Component {
   render() {
-    return (
-      <div>
-        <SideBar></SideBar>
-      </div>
-    );
+    return <Container></Container>;
   }
 }
